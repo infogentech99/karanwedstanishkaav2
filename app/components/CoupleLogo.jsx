@@ -7,7 +7,7 @@ export default function CoupleLogo() {
         <> 
            
 
-            <picture className="block w-full">
+            {/* <picture className="block w-full">
   <source
     media="(min-width: 768px)"
     srcSet="/assets/bg_four_n.webp"
@@ -18,7 +18,7 @@ export default function CoupleLogo() {
     alt=""
     className="block w-full h-auto"
   />
-</picture>
+</picture> */}
         </>
     );
 }
