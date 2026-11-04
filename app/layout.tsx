@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Karan & Tanishkaa ",
-    description: "Join as they begin their forever. 9 & 10 December, 2026",
+    description: "Join as they begin their forever. 10 December, 2026",
     url: "https://karanwedstanishkaaall2.invitearc.com/",
     siteName: "InviteArc",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Karan & Tanishkaa",
-    description: "Join as they begin their forever. 9 & 10 December, 2026",
+    description: "Join as they begin their forever. 10 December, 2026",
     images: ["/og.jpg"],
   },
 
