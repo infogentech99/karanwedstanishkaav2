@@ -4,20 +4,20 @@ import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 
 export default function CoupleIntro() {
   const events = [
-    {
-      title_ceremony: "Haldi",
-      image: "/assets/haldi_n.webp",
-      date: "Wednesday, December 9th 2026",
-      time: "1:00 PM onwards",
-      followed: "Followed by Lunch",
-    },
-    {
-      title_ceremony: "Ring Ceremony & Cocktail",
-      image: "/assets/ring_n.webp",
-      date: "Wednesday, December 9th 2026",
-      time: "6:00 PM onwards",
-      followed: "Dinner Followed by Cocktail Time 7:00 PM onwards ",
-    },
+    // {
+    //   title_ceremony: "Haldi",
+    //   image: "/assets/haldi_n.webp",
+    //   date: "Wednesday, December 9th 2026",
+    //   time: "1:00 PM onwards",
+    //   followed: "Followed by Lunch",
+    // },
+    // {
+    //   title_ceremony: "Ring Ceremony & Cocktail",
+    //   image: "/assets/ring_n.webp",
+    //   date: "Wednesday, December 9th 2026",
+    //   time: "6:00 PM onwards",
+    //   followed: "Dinner Followed by Cocktail Time 7:00 PM onwards ",
+    // },
 
     {
       title_ceremony: "Wedding",
