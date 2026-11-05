@@ -85,7 +85,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-750 md:h-850 lg:h-1300 3xl:h-1300">
+      <div className="flex flex-col items-center h-730 md:h-850 lg:h-1270 3xl:h-1270">
         <h2 className="playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
           INTRODUCING
         </h2>
