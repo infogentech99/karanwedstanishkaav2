@@ -85,7 +85,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-650 md:h-750 lg:h-1200 3xl:h-1200">
+      <div className="flex flex-col items-center h-700 md:h-850 lg:h-1250 3xl:h-1250">
         <h2 className="playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
           INTRODUCING
         </h2>
@@ -298,6 +298,17 @@ export default function CoupleMessage() {
         </div>
 
         <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
+          With Best Compliments From
+        </h2>
+        <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
+          Silky and Vishal Madaan <br />
+          Dr Sahiba and Dr Nikhil Chawla
+        </p>
+
+
+
+        
+        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
           With Best Wishing From
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
@@ -306,6 +317,14 @@ export default function CoupleMessage() {
           Sh. Baldev Madaan <br />
           Sh. Kishan Madaan <br />
           All Dadke & Nanke
+        </p>
+
+
+        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
+         Special Compliments From
+        </h2>
+        <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
+          Armaan & Vardaan Madaan
         </p>
 
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
@@ -359,7 +378,7 @@ export default function CoupleMessage() {
             We are excited to celebrate <br className="hidden md:block" />
             the happiest day of our life with you.
           </p>
-          {/* <div className="flex gap-3 justify-center items-center mt-4">
+          <div className="flex gap-3 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
               <img
                 src="/assets/instagram.webp"
@@ -372,7 +391,7 @@ export default function CoupleMessage() {
                 Follow InviteArc on Instagram
               </a>
             </p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
