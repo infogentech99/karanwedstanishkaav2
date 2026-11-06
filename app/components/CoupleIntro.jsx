@@ -37,22 +37,27 @@ export default function CoupleIntro() {
                             md:bg-cover bg-top bg-no-repeat w-full relative overflow-hidden md:min-h-screen"
       >
         <RoseHeroTemp />
-        <div className="relative pt-5 md:pt-30 3xl:pt-34 pb-20 z-10">
+        <div className="relative pt-4 md:pt-30 3xl:pt-34 pb-20 z-10">
           <h2
-            className="flex flex-col items-center text-center leading-tight text-3xl md:text-5xl lg:text-7xl
-                               pb-0 md:pb-260 lg:pb-200 3xl:pb-270 text-[#B35800]"
+            className="flex flex-col items-center text-center leading-tight text-xl md:text-5xl lg:text-7xl
+                               pb-100 md:pb-260 lg:pb-200 3xl:pb-270 text-[#B35800]"
           >
-            <span className="great-vibes-regular font-semibold">
+            <img
+              src="/assets/ganesh.png"
+              alt="ganesh"
+              className="w-9 h-9 md:w-25 md:h-24 lg:w-30 lg:h-30 lg:mt-3"
+            />
+            <span className="great-vibes-regular font-semibold mt-2">
               Karan
             </span>
-            <span className="playfair-display font-semibold italic text-xl md:text-3xl lg:text-[38px]">
+            <span className="playfair-display font-semibold italic text-[15px] md:text-3xl lg:text-[38px]">
               Weds
             </span>
             <span className="great-vibes-regular font-semibold">
               Tanishkaa
             </span>
           </h2>
-          <div className="flex flex-col items-center text-center md:gap-6 mt-0 pt-120 lg:pt-150">
+          <div className="flex flex-col items-center text-center md:gap-6 mt-0 pt-0 lg:pt-150">
             <h2 className="font-eb-garamond font-bold text-base md:text-2xl lg:text-3xl text-center text-[#B35800]">
               ॐ श्री गणेशाय नम:
             </h2>
@@ -61,13 +66,7 @@ export default function CoupleIntro() {
               alt="ganesh"
               className="w-16 h-16 md:w-25 md:h-24 lg:w-49 lg:h-47 mt-2 lg:mt-4"
             />
-            {/* <h2 className="font-eb-garamond font-medium text-base md:text-2xl lg:text-3xl mt-2 md:mt-0 text-[#B35800]">
-              With the heavenly blessings of
-            </h2>
-            <hr className="w-20 lg:w-26 lg:border-2 my-3 lg:my-4 border-[#B35800]" /> */}
-            {/* <h2 className="font-eb-garamond font-medium text-xl md:text-3xl lg:text-[42px] text-[#B35800]">
-              The Anands and Sahas
-            </h2> */}
+          
           </div>
           <div className="text-center mt-8">
             <h2 className="playfair-display font-semibold text-3xl md:text-4xl lg:text-6xl leading-tight lg:tracking-wide tracking-wider text-[#B35800] italic">
@@ -116,7 +115,7 @@ export default function CoupleIntro() {
           </div>
 
           <div className="flex justify-center mt-15 md:mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-x-26 lg:gap-x-60">
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-20 md:gap-x-26 lg:gap-x-60">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img

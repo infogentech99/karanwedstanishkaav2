@@ -85,7 +85,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-715 md:h-850 lg:h-1270 3xl:h-1270">
+      <div className="flex flex-col items-center h-728 md:h-850 lg:h-1300 3xl:h-1300">
         <h2 className="playfair-display font-semibold text-base md:text-xl lg:text-[38px] text-center pt-12 md:pt-18 lg:pt-32 text-[#B35800]">
           INTRODUCING
         </h2>
@@ -279,52 +279,47 @@ export default function CoupleMessage() {
               MADAAN MOTERS Kichha, <br /> U.S.Nagar,
               <br /> Uttarakhand- 263148
             </p>
-            {/* <a
-              href="https://wa.me/919837150019"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex flex-col-1 justify-center items-center gap-2 mt-1"
-            >
-              <img
-                src="/assets/whatsapp.webp"
-                alt="WhatsApp"
-                className="w-7.5 h-7.5 md:w-11.25 md:h-11.25 lg:w-15 lg:h-15 "
-              />
-              <p className="font-eb-garamond text-center text-[16px] md:text-sm lg:text-xl text-[#B35800]">
-                Madaan Moters
-              </p>
-            </a> */}
+           
           </div>
         </div>
 
-        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-20">
-          With Best Compliments From
+
+<h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-16">
+          With The Bessings Of
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
-          Silky and Vishal Madaan <br />
-          Dr Sahiba and Dr Nikhil Chawla
+          Mr Madan Mohan Madaan <br />
+        Mr Gulshan Madaan & Mrs Babita Madaan
+         
         </p>
 
 
-
-        
-        <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
+<h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
           With Best Wishing From
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
-          Sh. Madan Mohan Madaan <br />
-          Sh. Jogendra Pal Madaan <br />
-          Sh. Baldev Madaan <br />
-          Sh. Kishan Madaan <br />
-          All Dadke & Nanke
+          Mr Vishal Madaan and Mrs Silky Madaan and their loving children - Armaan & Vardaan
+        </p>
+
+
+
+
+    <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
+          With Warm Regards From
+        </h2>
+        <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
+          Mr Jogendra Pal Madaan <br />
+          Mr Baldev Madaan <br />
+          Mr Kishan Madaan  <br />
+          All Dadke and Nanke  
         </p>
 
 
         <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-10">
-         Special Compliments From
+        With Special Compliments From
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
-          Armaan & Vardaan Madaan
+          Dr Sahiba and Dr Nikhil Chawla
         </p>
 
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
@@ -378,7 +373,7 @@ export default function CoupleMessage() {
             We are excited to celebrate <br className="hidden md:block" />
             the happiest day of our life with you.
           </p>
-          <div className="flex gap-3 justify-center items-center mt-4">
+        <div className="flex gap-3 justify-center items-center mt-4">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
               <img
                 src="/assets/instagram.webp"
