@@ -285,7 +285,7 @@ export default function CoupleMessage() {
 
 
 <h2 className="playfair-display font-semibold text-center text-[22px] md:text-3xl lg:text-[46px] leading-5 md:leading-8 lg:leading-11 text-[#B35800] mt-16">
-          With The Bessings Of
+          With The Blessings Of
         </h2>
         <p className="font-eb-garamond text-center text-[17px] md:text-sm lg:text-xl mt-2 lg:mt-4 text-[#B35800]">
           Mr Madan Mohan Madaan <br />
